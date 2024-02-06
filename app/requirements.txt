@@ -1,0 +1,9 @@
+Flask==1.1.4
+python-telegram-bot==13.6
+SpeechRecognition==3.8.1
+MarkupSafe==2.0.1
+configparser==5.0.2
+pydub==0.25.1
+ffmpeg
+requests
+emoji

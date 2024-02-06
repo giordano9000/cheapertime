@@ -1,0 +1,20 @@
+version: '3'
+
+#networks:
+#  default:
+#    external:
+#      name: reverseproxy_default
+
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: cheapertime_bot
+    #environment:
+    #  - VIRTUAL_HOST=cheampertime.domain.com
+    ports:
+      - "5500:5000"
+    volumes:
+      - ./app:/app
+    restart: always

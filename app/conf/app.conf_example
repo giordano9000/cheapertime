@@ -1,0 +1,6 @@
+[telegram]
+token = 123123:xxxxxxxx
+
+[api]
+base_url = https://app.com/api/bot
+token =
